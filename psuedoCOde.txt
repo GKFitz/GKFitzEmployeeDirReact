@@ -1,0 +1,9 @@
+//hit the Api when page loads
+// store the results of API in state 
+// sort first sort function
+//filtering will depend on state
+// render each employee from state
+//create an employee component: this needs to be 
+render out an employee component for each employee,
+// results of the API will be an array so use map method
+//in order of importance: state, props, then mapping/filtering and sorting.
