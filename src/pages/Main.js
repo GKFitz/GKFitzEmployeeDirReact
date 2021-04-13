@@ -64,8 +64,7 @@ export default class Main extends Component {
                 <div>
     
                     <Header />
-                    
-                    <input type="text" nameState= {this.state.name} handleInputChange= {this.handleInputChange} placeholder="Search.."></input> 
+                <input type="text" value= {this.state.name} onChange= {this.handleInputChange} placeholder="Search.."></input> 
                     <table>
                         <tr>
                             <th onClick= {this.changeSortFName}>
