@@ -35,6 +35,17 @@ export default class Main extends Component {
         return filterResults
         
     }
+    sortByFirstName= () => {
+        const sortedResults=  this.state.employees.sort(function(a, b){
+            if(a.name.first < b.name.first) {
+                return -1
+    
+            }else{
+                return 1
+            }})
+    
+        return sortedResults
+    }
    
     render() {
        
@@ -43,7 +54,7 @@ export default class Main extends Component {
     
                     <Header />
                     
-                    <input type="text" type= {this.state.name} onChange= {this.handleInputChange} placeholder="Search.."></input> 
+                    <input type="text" nameState= {this.state.name} handleInputChange= {this.handleInputChange} placeholder="Search.."></input> 
                     <table>
                         <tr>
                             <th onClick= {this.changeSortFName}>
@@ -62,7 +73,7 @@ export default class Main extends Component {
                         </tr>
 
                         {/* {tempArray.map((employee) =>{ */}
-                        {filterResults.map((employee) =>{
+                        {state.filterResults.map((employee) =>{
                             return <EmployeeRow firstName={employee.name.first} lastName={employee.name.last} email={employee.email} 
                             />
                         })}
