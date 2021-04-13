@@ -9,6 +9,9 @@ The employee list was populated by an API from https://randomuser.me. This appli
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
+## Screenshot
+![image](https://user-images.githubusercontent.com/73301331/114512593-44ecb600-9c07-11eb-95e9-d11558c9d3db.png)
+
 ## Table of Contents
 * [Description](#Description)
 * [Installation](#Installation)
