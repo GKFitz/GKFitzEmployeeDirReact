@@ -46,8 +46,19 @@ export default class Main extends Component {
     
         return sortedResults
     }
+    changeSortFName= () => {
+        this.setState({sortBy: "firstName", sortingMethod: "sort"})
+    }
    
     render() {
+        let tempArray= this.state.employees;
+        if (this.state.sortingMethod === "filter") {
+            tempArray = this.nameFilter()
+        }else if (this.state.sortingMethod === "sort") {
+            if(this.state.sortBy === "firstName") {
+                tempArray = this.sortByFirstName()
+            }
+        }
        
         return (
                 <div>
@@ -72,8 +83,8 @@ export default class Main extends Component {
 
                         </tr>
 
-                        {/* {tempArray.map((employee) =>{ */}
-                        {state.filterResults.map((employee) =>{
+                        
+                        {tempArray.map((employee) =>{
                             return <EmployeeRow firstName={employee.name.first} lastName={employee.name.last} email={employee.email} 
                             />
                         })}
