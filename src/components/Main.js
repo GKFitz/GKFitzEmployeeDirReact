@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import API from '../utils/API.js';
 import Header from './Header.js';
 import EmployeeRow from './EmployeeRow.js';
+import SearchBar from './SearchBar.js';
+import Wrapper from './Wrapper.js';
 
    
 
@@ -9,26 +11,32 @@ export default class Main extends Component {
     state = {
         employees: [],
         name: "",
+        sortingMethod: "default",
+        sortBy: "", 
+       
         
     };
 
     handleInputChange = event => {
         this.setState({name:event.target.value, sortingMethod: "filter"})
-
+        // this.nameFilter()
     }
+
     componentDidMount() {
         API.search()
         .then(res => this.setState({employees:res.data.results}))
         .catch(err => console.log(err));
         
     }
-  
+   
     render() {
+       
         return (
                 <div>
+    
                     <Header />
-
-                    <input type="text" value= {this.state.name} onChange= {this.handleInputChange} placeholder="Search.."></input>
+                    
+                    <input type="text" value= {this.state.name} onChange= {this.handleInputChange} placeholder="Search.."></input> 
                     <table>
                         <tr>
                             <th onClick= {this.changeSortFName}>
@@ -53,7 +61,7 @@ export default class Main extends Component {
                         })}
 
                     </table>
-            
+                    
                 </div>
                 
         
