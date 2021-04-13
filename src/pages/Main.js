@@ -67,10 +67,10 @@ export default class Main extends Component {
                     <SearchBar nameState = {this.state.name} handleInputChange= {this.handleInputChange}/>
                     <table>
                         <tr>
-                            <th onClick= {this.changeSortFName}>
+                            <th>
                             Picture
                             </th>
-                            <th>
+                            <th onClick= {this.changeSortFName}>
                             First Name
                             </th>
                             <th>
