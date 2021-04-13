@@ -62,7 +62,7 @@ export default class Main extends Component {
        
         return (
                 <div>
-    
+                    <Wrapper>
                     <Header />
                     <SearchBar nameState = {this.state.name} handleInputChange= {this.handleInputChange}/>
                     <table>
@@ -89,7 +89,7 @@ export default class Main extends Component {
                         })}
 
                     </table>
-                    
+                    </Wrapper>
                 </div>
                 
         
