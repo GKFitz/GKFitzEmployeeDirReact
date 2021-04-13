@@ -13,7 +13,10 @@ export default function EmployeeRow(props) {
             <td>
                 {props.email}
             </td>
-            
+            <td>
+                <img src={props.picture} alt= "employee images"/>
+
+            </td>
 
         </tr>
     )

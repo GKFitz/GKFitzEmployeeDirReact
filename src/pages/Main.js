@@ -84,7 +84,7 @@ export default class Main extends Component {
 
                         
                         {tempArray.map((employee) =>{
-                            return <EmployeeRow firstName={employee.name.first} lastName={employee.name.last} email={employee.email} 
+                            return <EmployeeRow firstName={employee.name.first} lastName={employee.name.last} email={employee.email} picture={employee.picture.thumbnail}
                             />
                         })}
 
