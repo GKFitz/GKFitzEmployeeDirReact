@@ -4,17 +4,17 @@ export default function EmployeeRow(props) {
     return (
         <tr>
             <td>
-                {props.firstName}
+                <img src={props.picture} alt= "employee images"/>
             </td>
             <td>
-                {props.lastName}
+                {props.firstName}
 
             </td>
             <td>
-                {props.email}
+                {props.lastName}
             </td>
             <td>
-                <img src={props.picture} alt= "employee images"/>
+                {props.email}
 
             </td>
 

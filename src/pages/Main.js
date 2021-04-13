@@ -68,6 +68,9 @@ export default class Main extends Component {
                     <table>
                         <tr>
                             <th onClick= {this.changeSortFName}>
+                            Picture
+                            </th>
+                            <th>
                             First Name
                             </th>
                             <th>
@@ -76,15 +79,12 @@ export default class Main extends Component {
                             <th>
                             Email
                             </th>
-                            <th>
-                            Picture
-                            </th>
 
                         </tr>
 
                         
                         {tempArray.map((employee) =>{
-                            return <EmployeeRow firstName={employee.name.first} lastName={employee.name.last} email={employee.email} picture={employee.picture.thumbnail}
+                            return <EmployeeRow picture={employee.picture.thumbnail} firstName={employee.name.first} lastName={employee.name.last} email={employee.email} 
                             />
                         })}
 
