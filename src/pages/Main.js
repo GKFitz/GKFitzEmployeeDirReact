@@ -30,7 +30,7 @@ export default class Main extends Component {
     }
     nameFilter= () => {
         const filterResults= this.state.employees.filter(employee => {
-            return employee.name.first.includes(this.state.name);
+            return employee.name.first.toLowerCase().includes(this.state.name.toLowerCase());
         })
         return filterResults
         
