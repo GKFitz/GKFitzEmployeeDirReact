@@ -28,6 +28,12 @@ export default class Main extends Component {
         .catch(err => console.log(err));
         
     }
+    nameFilter= () => {
+        const filterResults= this.state.employees.filter(employee => {
+            return employee.name.first.includes(this.state.name);
+        })
+        
+    }
    
     render() {
        
@@ -55,7 +61,7 @@ export default class Main extends Component {
                         </tr>
 
                         {/* {tempArray.map((employee) =>{ */}
-                        {this.state.employees.map((employee) =>{
+                        {filterResults.map((employee) =>{
                             return <EmployeeRow firstName={employee.name.first} lastName={employee.name.last} email={employee.email} 
                             />
                         })}
