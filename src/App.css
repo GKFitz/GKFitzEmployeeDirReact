@@ -58,7 +58,7 @@ table {
 tr {
   display: table-row;
   /* vertical-align: inherit; */
-  border: 1px solid black;
+  border: 1px solid white;
   box-sizing: border-box;
     
 }
@@ -70,4 +70,11 @@ tr {
   width: 20%;
   margin: 20px auto;
   align-items: center;
+}
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  width: 70%;
+  margin: 0 auto;
 }

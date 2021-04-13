@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const num = 5;
+const num = 500;
 const BASEURL = `https://randomuser.me/api/?results=${num}`;
 //const APIKEY = "&api_key=dc6zaTOxFJmzC&limit=20";
 

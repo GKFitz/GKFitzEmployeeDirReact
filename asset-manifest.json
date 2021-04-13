@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GKFitzEmployeeDirReact/static/css/main.888433dd.chunk.css",
+    "main.js": "/GKFitzEmployeeDirReact/static/js/main.5f46da73.chunk.js",
+    "main.js.map": "/GKFitzEmployeeDirReact/static/js/main.5f46da73.chunk.js.map",
+    "runtime-main.js": "/GKFitzEmployeeDirReact/static/js/runtime-main.efcd56af.js",
+    "runtime-main.js.map": "/GKFitzEmployeeDirReact/static/js/runtime-main.efcd56af.js.map",
+    "static/js/2.ed0a3952.chunk.js": "/GKFitzEmployeeDirReact/static/js/2.ed0a3952.chunk.js",
+    "static/js/2.ed0a3952.chunk.js.map": "/GKFitzEmployeeDirReact/static/js/2.ed0a3952.chunk.js.map",
+    "static/js/3.6f08976c.chunk.js": "/GKFitzEmployeeDirReact/static/js/3.6f08976c.chunk.js",
+    "static/js/3.6f08976c.chunk.js.map": "/GKFitzEmployeeDirReact/static/js/3.6f08976c.chunk.js.map",
+    "index.html": "/GKFitzEmployeeDirReact/index.html",
+    "static/css/main.888433dd.chunk.css.map": "/GKFitzEmployeeDirReact/static/css/main.888433dd.chunk.css.map",
+    "static/js/2.ed0a3952.chunk.js.LICENSE.txt": "/GKFitzEmployeeDirReact/static/js/2.ed0a3952.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/GKFitzEmployeeDirReact/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efcd56af.js",
+    "static/js/2.ed0a3952.chunk.js",
+    "static/css/main.888433dd.chunk.css",
+    "static/js/main.5f46da73.chunk.js"
+  ]
+}
