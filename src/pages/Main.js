@@ -32,6 +32,7 @@ export default class Main extends Component {
         const filterResults= this.state.employees.filter(employee => {
             return employee.name.first.includes(this.state.name);
         })
+        return filterResults
         
     }
    
