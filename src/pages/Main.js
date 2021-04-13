@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import API from '../utils/API.js';
-import Header from './Header.js';
-import EmployeeRow from './EmployeeRow.js';
-import SearchBar from './SearchBar.js';
-import Wrapper from './Wrapper.js';
+import Header from '../components/Header.js';
+import EmployeeRow from '../components/EmployeeRow.js';
+import SearchBar from '../components/SearchBar.js';
+import Wrapper from '../components/Wrapper.js';
 
    
 
