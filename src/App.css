@@ -43,10 +43,11 @@
 }
 table {
   width: 70%;
-  margin: auto;
-  border: 1px solid #000;
+  margin: 0 auto;
+  border: 1px solid #000; 
   max-width: 100%;
-  border-collapse: collapse;
+  
+  /* border-collapse: collapse; */
 }
 .top {
   display: table-header-group;
@@ -56,7 +57,16 @@ table {
 }
 tr {
   display: table-row;
-  vertical-align: inherit;
-  border-color: inherit;
+  /* vertical-align: inherit; */
+  border-color: white;
     
+}
+.searchBar {
+  /* display: flex; */
+  margin-top: 0em;
+  box-sizing: border-box;
+  /* padding: 15px; */
+  width: 20%;
+  margin: 20px auto;
+  align-items: center;
 }
