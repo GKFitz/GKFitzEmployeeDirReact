@@ -41,3 +41,16 @@
   background-color: #61dafb;
   margin: 0 auto;
 }
+table {
+  width: 70%;
+  margin: auto;
+  border: 1px solid #000;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+    
+}
