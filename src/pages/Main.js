@@ -66,7 +66,7 @@ export default class Main extends Component {
                     <Header />
                     <SearchBar nameState = {this.state.name} handleInputChange= {this.handleInputChange}/>
                     <table>
-                        <tr>
+                        <tr class= "top">
                             <th>
                             Picture
                             </th>

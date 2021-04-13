@@ -48,6 +48,12 @@ table {
   max-width: 100%;
   border-collapse: collapse;
 }
+.top {
+  display: table-header-group;
+  vertical-align: middle;
+  background-color: black;
+  color: white;
+}
 tr {
   display: table-row;
   vertical-align: inherit;
